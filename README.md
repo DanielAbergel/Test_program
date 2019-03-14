@@ -3,7 +3,7 @@
 A script that checks Compilation , Memory leaks , Thread race .<br/>
 This script checks whether there is a makefile file in the directory given in the path.<br/>
 If there is such a file,the program will execute the executable file <br/>(which receives the name of the executable file as an argument),<br/>
-then checks for memory leak in the program, and finally checks the thread race.<br/>
+then checks for memory leak in the program, and finally checks if there thread race.<br/>
 ### Run the Script.<br/>
 1.clone the project . <br/>
 2.go into the folder . <br/>
@@ -14,8 +14,8 @@ then checks for memory leak in the program, and finally checks the thread race.<
   `<arguments if needed>` = arguments for the program.<br/>
  ####  Script output.
 ```
-                                   Compilation   Memory leaks   thread race
-                                    PASS/FAIL     PASS/FAIL      PASS/FAIL
+                              Compilation   Memory leaks   thread race
+                               PASS/FAIL     PASS/FAIL      PASS/FAIL
  ```
  
  #### Exit code.
