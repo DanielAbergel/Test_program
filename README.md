@@ -17,9 +17,9 @@ then checks for memory leak in the program, and finally checks the thread race.<
     Compilation   Memory leaks   thread race
      PASS/FAIL     PASS/FAIL      PASS/FAIL
  ```
- <br/>
- #### Exit code. <br/>
-<br/> `PASS = 0 , FAIL = 1 `<br/>
+ 
+ #### Exit code.
+ `PASS = 0 , FAIL = 1 `<br/>
  * 7 - Compilation fail.<br/>
  * 3 - Memory leak and thread race fail.<br/>
  * 2 - Memory leak fail.<br/>
