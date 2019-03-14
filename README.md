@@ -12,9 +12,19 @@ then checks for memory leak in the program, and finally checks the thread race.<
   `<dir path>` = The folder path.<br/>
   `<program>` = Executable file name.<br/>
   `<arguments if needed>` = arguments for the program.<br/>
- #### Output.
-` Compilation Memory leaks thread race
-
- PASS/FAIL PASS/FAIL PASS/FAIL`  
+ ####  Script output.
+```
+    Compilation   Memory leaks   thread race
+     PASS/FAIL     PASS/FAIL      PASS/FAIL
+ ```
+ <br/>
+ #### Exit code. <br/>
+<br/> `PASS = 0 , FAIL = 1 `<br/>
+ * 7 - Compilation fail.<br/>
+ * 3 - Memory leak and thread race fail.<br/>
+ * 2 - Memory leak fail.<br/>
+ * 1 - thread race fail.<br/>
+ 
+ 
  
 
