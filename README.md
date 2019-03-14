@@ -7,4 +7,14 @@ then checks for memory leak in the program, and finally checks the thread race.<
 ### Run the Script.<br/>
 1.clone the project . <br/>
 2.go into the folder . <br/>
-3.Run this command in the terminal<br/>`BasicCheck.sh <dir path> <program> <arguments if needed>`
+3.Run this command in the terminal<br/>
+`BasicCheck.sh <dir path> <program> <arguments if needed>` <br/>
+  `<dir path>` = The folder path.<br/>
+  `<program>` = Executable file name.<br/>
+  `<arguments if needed>` = arguments for the program.<br/>
+ #### Output.
+` Compilation Memory leaks thread race
+
+ PASS/FAIL PASS/FAIL PASS/FAIL`  
+ 
+
