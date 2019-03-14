@@ -14,8 +14,8 @@ then checks for memory leak in the program, and finally checks the thread race.<
   `<arguments if needed>` = arguments for the program.<br/>
  ####  Script output.
 ```
-    Compilation   Memory leaks   thread race
-     PASS/FAIL     PASS/FAIL      PASS/FAIL
+                                   Compilation   Memory leaks   thread race
+                                    PASS/FAIL     PASS/FAIL      PASS/FAIL
  ```
  
  #### Exit code.
